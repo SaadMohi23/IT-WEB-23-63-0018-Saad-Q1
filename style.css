@@ -1,0 +1,206 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.heading1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+
+.taskiaHeading {
+    color: #3747fd;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.button1 {
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-weight: 600px;
+}
+
+.para {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+    font-family: "Poppins", sans-serif;
+}
+
+.imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 75%;
+}
+
+/* Card Alignments through ID */
+
+#card1 {
+    margin: 25px;
+    margin-bottom: 150px;
+}
+
+#card2 {
+    margin: 25px;
+    margin-bottom: 0px;
+}
+
+#card3 {
+    margin: 25px;
+    margin-bottom: 125px;
+}
+
+/* Trust alignments through ID */
+
+
+#imgCircle1 {
+    margin-bottom: 200px;
+    width: 250px;
+
+}
+
+#imgCircle2 {
+    margin-top: 180px;
+    width: 300px;
+}
+
+#imgText {
+    margin: 25px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/* Section styles */
+
+
+.section button {
+    margin-left: 20px;
+}
+
+
+
+.header {
+    text-align: left;
+    padding-left: 10%;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.try-free {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Header Button */
+
+.custom-btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #3747fd;
+    border: 1px solid #3747fd;
+    background-color: transparent;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.custom-btn:hover {
+    color: #fff;
+    background-color: #3747fd;
+    /* Change on hover */
+    border-color: #3747fd;
+}
+
+.custom-btn:focus,
+.custom-btn:active {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(55, 71, 253, 0.25);
+    /* Optional: focus ring */
+}
+
+@media (max-width: 768px) {
+    .custom-btn {
+        margin-top: -50px;
+    }
+}
+
+/* Pill Button */
+.pillBtn {
+    background-color: #3747fd;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 951px) {
+
+    #imgCircle1,
+    #imgCircle2 {
+        margin: 0px;
+    }
+
+    #imgText {
+        font-size: 25px;
+    }
+
+    .row {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    #card1,
+    #card2,
+    #card3 {
+        margin: 25px;
+    }
+}
+
+.circle-img {
+    width: 100%;
+    max-width: 300px;
+    /* Adjust this value as needed */
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.center-text {
+    font-size: 4vw;
+    /* Adjust font size as needed */
+    color: #3747fd;
+    /* Color for the number */
+    font-family: "Poppins", sans-serif;
+}
